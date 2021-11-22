@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  /* background-color: red; */
+  border: solid black 2px;
+  flex-wrap: wrap;
+}
+.display {
+  height: 100px;
+  width: 400px;
+  border: solid black 2px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+/* .clearbutton {
+  width: 200px;
+} */
+
+.storednum {
+  padding: 10px;
+  font-size: 20px;
+  /* background-color: red; */
+  height: 20px;
+}
+
+.displaynum {
+  padding: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+  /* background-color: blue; */
+}
+
+button {
+  font-size: bold;
+  height: 100px;
+  width: 100px;
+}
