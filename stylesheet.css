@@ -1,6 +1,25 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #af2bbf;
+  height: 100vh;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+}
+.calculator {
+  border: black solid 4px;
+  width: 402px;
+  height: 618px;
+}
 .container {
   display: flex;
-  height: 400px;
+  height: 500px;
   width: 400px;
   /* background-color: red; */
   border: solid black 2px;
@@ -12,6 +31,8 @@
   border: solid black 2px;
   margin-bottom: 10px;
   text-align: end;
+  background-color: #a14ebf;
+  color: white;
 }
 
 /* .clearbutton {
@@ -32,8 +53,35 @@
   /* background-color: blue; */
 }
 
+.clear-button {
+  width: 300px;
+  background-color: #5bc8af;
+  color: black;
+  /* font-size: 30px; */
+}
+
 button {
   font-size: bold;
   height: 100px;
   width: 100px;
+  border: black solid 1px;
+  font-size: 22px;
+}
+
+.number {
+  background-color: #6c91bf;
+  color: white;
+}
+
+.operator {
+  background-color: #5fb0b7;
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: red;
+  height: 5%;
+  text-align: center;
+  font-size: 20px;
 }
